@@ -9,6 +9,8 @@ TagManager:
   - Paddle
   - GoalRight
   - GoalLeft
+  - SpeedBooster
+  - RandomBooster
   layers:
   - Default
   - TransparentFX

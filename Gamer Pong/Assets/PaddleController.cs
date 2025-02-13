@@ -16,9 +16,6 @@ public class PaddleController : MonoBehaviour
     Rigidbody leftRB;
     float paddleHeight;
     public float moveForce;
-
-
-    bool lastHit = false; //false = last hit was right; true = last hit was left
     void Start()
     {
         moveRight = InputSystem.actions.FindAction("RightMove");
